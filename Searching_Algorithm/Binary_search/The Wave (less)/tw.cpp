@@ -74,8 +74,8 @@ int main()
       }
       else
       {
-        int x=ptr-ar+1;
-        if(x&1)//x & 1 is equivalent to x % 2.
+        int x=ptr-ar+1;//address scaling
+        if(x&1)//x & 1 is equivalent to x % 2==1.
         {
            cout<<"POSITIVE"<<endl;
         }
