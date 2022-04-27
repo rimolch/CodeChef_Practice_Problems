@@ -68,6 +68,7 @@ int main()
         int x;
         cin>>x;
        int *ptr= lower_bound(ar,ar+n,x);//The lower_bound() method in C++ is used to return an iterator pointing to the first element in the range [first, last) which has a value not less than val.
+      // reference https://www.javatpoint.com/cpp-algorithm-lower_bound-function
       if(*ptr==x)
       {
          cout<<"0"<<endl;
