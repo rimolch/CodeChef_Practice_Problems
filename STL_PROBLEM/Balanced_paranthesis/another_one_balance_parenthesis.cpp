@@ -15,19 +15,16 @@ string is_balanced(string s)
          }
          else
          {
-             if(st.empty())
+             if(st.empty())//is_already empty() then return no
              {
                  return "NO";
              }
-             else
-             {
                  char top =st.top();
                  st.pop();
                  if(symbols[top]+symbols[char_bracket_in_string]!=0)
                  {
                     return "NO";
                  }
-             }
          }
     }
     if(st.empty())
