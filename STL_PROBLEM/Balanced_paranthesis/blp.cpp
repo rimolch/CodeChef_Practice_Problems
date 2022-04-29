@@ -29,7 +29,7 @@ string is_Balanced(string s)
              }
          }
      }
-     if(st.empty())
+     if(st.empty())//is_all_parenthesis are empty()
      {
          return "YES";
      }
