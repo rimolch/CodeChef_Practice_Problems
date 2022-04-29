@@ -17,7 +17,7 @@ string is_Balanced(string s)
          }
          else
          {
-             if(st.empty())
+             if(st.empty())//is_already empty() then return no
              {
                  return "NO";
              }
