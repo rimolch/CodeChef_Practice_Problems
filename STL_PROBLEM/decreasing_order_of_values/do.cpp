@@ -17,3 +17,22 @@ int main()
     }
 	return 0;
 }
+/*
+#include<bits/stdc++.h>
+#define ll long long
+using namespace std;
+int main()
+{
+	priority_queue<int>pq;
+	pq.push(12);
+	pq.push(13);
+	pq.push(2);
+	pq.push(3);
+	while(!pq.empty())
+    {
+        cout<<pq.top()<<endl;
+        pq.pop();
+    }
+	return 0;
+}
+*/
